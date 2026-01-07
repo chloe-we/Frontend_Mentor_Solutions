@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](image link)
 
 ### Links
 
@@ -28,9 +28,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## My process
 
+- I decided to contain the main content of the page in an `<article>` element instead of a `<div>` element. I believe this is the better alternative for semantic HTML. I wasn't sure if it should be an `<article>` element or a `<section>` element. If anyone has a better solution please let me know.
+- I stored all the provided styles in CSS variables for easier usage and changes.
+
 ### Built with
 
-- Semantic HTML5 
+- Semantic HTML
 - Flexbox
 - CSS Grid
-- Mobile-first 
+- CSS variables
+- Mobile-first design
