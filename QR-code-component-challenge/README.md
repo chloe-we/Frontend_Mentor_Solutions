@@ -11,25 +11,29 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### Screenshot
 
-![](image link)
+![](assets/screenshot-fullscreen.png)
+
+This is a view of my fullscreen result.
+
+![](assets/screenshot-width330px.png)
+
+This is a view of my solution at a width of 330px.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://chloe-we.github.io/Frontend_Mentor_Solutions/QR-code-component-challenge/)
 
 ## My process
 
 - I decided to contain the main content of the page in an `<article>` element instead of a `<div>` element. I believe this is the better alternative for semantic HTML. I wasn't sure if it should be an `<article>` element or a `<section>` element. If anyone has a better solution please let me know.
 - I stored all the provided styles in CSS variables for easier usage and changes.
+- I started by getting all the content contained in the HTML done. Then I tried to work from the top to bottom while styling. I did jump around a little bit, and I went back to adjust the html a few times to improve the semantics.
 
 ### Built with
 
@@ -38,3 +42,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS Grid
 - CSS variables
 - Mobile-first design
+
+### What I Learned
+
+### Continued Development
+
+## Author
+
+Frontend Mentor - [@chloe-we](https://www.frontendmentor.io/profile/chloe-we)
