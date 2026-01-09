@@ -6,6 +6,65 @@
     --slate900: hsl(218, 44%, 22%);
 }
 
+/* mini css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styles - mobile first */
+body {
+    background-color: var(--slate300);
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.qr-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
+}
+.qr-content img {
+    max-width: 288px;
+    max-height: 288px;
+    margin: 16px;
+    border-radius: 10px;
+}
+.qr-content-txt {
+    margin: 8px 16px 40px; 
+}
+.qr-content h1 {
+    color: var(--slate900);
+    text-align: center;
+    font-size: 22px;
+    margin: 0 16px 8px;
+}
+.qr-content p {
+    color: var(--slate500);
+    text-align: center;
+    margin: 8px 16px 0;
+}
+
+/* footer styles */
+footer {
+    margin-top: auto;
+    padding: 12px;
+}
+
 /* frontend provided styles */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
