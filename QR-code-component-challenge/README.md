@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 This is a view of my fullscreen result.
 
-![](assets/screenshot-width330px.png)
+<img src="assets/screenshot-width330px.png" alt="screenshot of solution in mobile view" width="330px">
 
 This is a view of my solution at a width of 330px.
 
@@ -45,7 +45,11 @@ This is a view of my solution at a width of 330px.
 
 ### What I Learned
 
+The biggest thing was how to pull information from a Figma design file to write my code. I learned how to find simple things like padding and corner radius. I also learned the more tricky things, like how to get the box shadow information.
+
 ### Continued Development
+
+In the future I'm hoping to practice more advanced CSS, learn JS, and start integrating new tools.
 
 ## Author
 
